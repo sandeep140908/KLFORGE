@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and title of the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML with Internal CSS</title>
+
+    <!-- Internal CSS starts here -->
+    <style>
+        /* Style the body background and default font */
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 20px; /* Add some margin around the content */
+        }
+
+        /* Style the main heading (h1) */
+        h1 {
+            color: #007bff; /* Blue color for heading */
+            text-align: center; /* Center the heading text */
+            border-bottom: 2px solid #007bff; /* Add a bottom border */
+            padding-bottom: 10px; /* Space between text and border */
+        }
+
+        /* Style paragraphs (p) */
+        p {
+            font-size: 16px;
+            line-height: 1.5; /* Improve readability */
+        }
+
+        /* Style elements with the class "highlight" */
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+            padding: 5px;
+        }
+    </style>
+    <!-- Internal CSS ends here -->
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    
+    <p>This is a standard paragraph with basic styling applied via the `p` selector in the `<style>` tag.</p>
+
+    <p class="highlight">This paragraph has an additional class called "highlight", giving it a yellow background and bold text.</p>
+
+    <p>Internal CSS is a great way to style a single page when its styles are unique. For larger projects, consider using an [external stylesheet](https://www.w3schools.com) for better organization.</p>
+</body>
+</html>
